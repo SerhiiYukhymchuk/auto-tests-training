@@ -23,7 +23,7 @@ public class CreateAccountWithValidData extends BaseTest {
     String url = ConfProperties.getProperties("mainPageUrl");
 
     //Valid data for filling out form
-    String email = uuid.toString() + "@vvvv.com";
+    String email = uuid.toString() + "@vvvvv.com";
     String firstName = ConfProperties.getProperties("validFirstName");
     String lastName =  ConfProperties.getProperties("validLastName");
     String password =  ConfProperties.getProperties("validPassword");
